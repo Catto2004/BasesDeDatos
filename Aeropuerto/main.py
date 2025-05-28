@@ -162,6 +162,6 @@ def menu():
         input("\nPresione Enter para continuar...")
 
 if __name__ == "__main__":
-    limpiar_pantalla()
+    os.system('cls')
     menu()
 
